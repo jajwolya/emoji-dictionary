@@ -77,6 +77,10 @@
                             <constraint firstItem="LPZ-FW-n9h" firstAttribute="centerX" secondItem="tNk-QT-Uum" secondAttribute="centerX" id="dbN-x5-MMm"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emojiDef" destination="EbL-Re-mfY" id="Dli-Wl-AVc"/>
+                        <outlet property="emojiLabel" destination="LPZ-FW-n9h" id="3LT-LF-fXP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6nd-rl-VCz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
